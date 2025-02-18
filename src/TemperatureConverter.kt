@@ -12,14 +12,6 @@ class TemperatureConverter {
             return kelvin - 273
         }
 
-        fun kelvinToFahrenheit(kelvin: Double): Double {
-            return (kelvin-273) * 9 / 5 + 32
-        }
-
-        fun fahrenheitToKelvin(fahrenheit: Double): Double {
-            return fahrenheitToCelsius(fahrenheit) + 273
-        }
-
         fun celsiusToKelvin(celsius: Double): Double {
             return celsius + 273
         }
